@@ -24,7 +24,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - run: echo "Джоба была триггренути этим ивентом - ${{ github.event_name }}"
-    - run: echo "Джоба запущена на раннере с такой ОС - ${{ runner.os }}
+    - run: echo "Джоба запущена на раннере с такой ОС - ${{ runner.os }}"
     - run: echo "Название ветки ${{ github.ref }}"
     - run: echo "Название репо ${{ github.repository }}"
     - run: echo "Статус джобы - ${{ job.status }}"
